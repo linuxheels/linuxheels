@@ -8,11 +8,11 @@
 
 #print(f"Each person should pay: ${each_rounded}")
 
-#OR HERE'S A DIFFERENT WAY TO GET THE SAME RESULT
+######################################################################################OR HERE'S A DIFFERENT WAY TO GET THE SAME RESULT
 
 print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill? $"))
-tip = int(input("How much tip would you like to give? 10, 12, 15? "))
+tip = int(input("How much tip would you like to give? 10, 12, 15, custom? "))
 people_splitting = int(input("How many people to split the bill?"))
 
 tip_as_percent = tip / 100
