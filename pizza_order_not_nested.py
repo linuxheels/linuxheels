@@ -19,11 +19,11 @@ elif size == "M":
 else:
  bill += 25
 
-if add_pepperoni == "Y":
-    if size == "S":
-      bill += 2
-    else:  
-      bill += 3
+if add_pepperoni == "Y" and size == "S":
+    #if size == "S":
+  bill += 2
+else:  
+  bill += 3
 
 if extra_cheese == "Y":
     bill += 1
