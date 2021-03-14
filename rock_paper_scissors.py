@@ -1,5 +1,5 @@
 import random
-
+#docs.python.org
 rock = '''
     _______
 ---'   ____)
